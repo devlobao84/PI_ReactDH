@@ -2,7 +2,7 @@
   display: block;
   background-color: #F2F2F2;
   box-sizing: border-box;
-  padding: 10px !important;
+  padding: 2px !important;
   overflow: hidden;
 }
 
@@ -13,12 +13,16 @@ div .navProfile {
   color: #FFC100;
   margin-left: -3%;
   margin-top: -5%;
-  margin-bottom: -90px;
+  margin-bottom: -10%;
+  padding-top: 80px;
+  padding-bottom: 60px;  
   padding-left: 35px;
   border-radius: 10px;
+  z-index:20;
+  
 }
 
-/*Menu da dashboard */
+/*Menu da dash */
 
 .nav-lista {
   background: #1E1E1E;
@@ -50,14 +54,14 @@ li {
 
 .foto-perfil {
   width: 130px;  
-  margin-top: 80%;
+  margin-top: 30%;
   max-width: 100%;
   border-radius: 50%;
 }
 
 .barberInfo {
   width: 100%;
-  height: 15%;
+  height: 20%;
   padding: 15px;
   background-color: white;
   border-radius: 10px;
@@ -67,16 +71,26 @@ li {
 .welcome {
   font-size: 0.8rem;
   text-align: left;  
-  padding-right: 120px;
+  padding-right: 30px;
   
 }
 
 p.endereço {
-  display: flex;
-  font-size: 0.8rem;
-  text-align: left;
-  padding-bottom: 70px;
-  padding-right: 40px;
+  display: block; 
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px; 
+  
+}
+
+
+
+p.cnpj {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  
+
 }
 
 .disponiveis {
@@ -85,9 +99,9 @@ p.endereço {
 
 .barbershop {
   display: flex;
-  margin-bottom: 80px;
-  width: 70%;
-  height: 35%;
+  margin-top: 10px;
+  width: 90%;
+  height: 70%;
   max-width: 100%;
   border-radius: 5%;
   
@@ -106,7 +120,9 @@ p.endereço {
 
 .agendamentos {
   background-color: white;
-  border-radius: 30px;
+  height: 100%;
+  border-radius: 10px;
+  
 }
 
 .tituloAgendamento {
@@ -118,8 +134,16 @@ p.endereço {
   font-size: 0.8rem !important;
 }
 
-.professionalSchedule {
+.professionalSchedule { 
   background-color: white;
+  margin: 50px auto;
+  border-radius: 5%;
+}
+
+.professionalSchedule .list-2 { 
+   margin: 55px auto;
+  padding: 20px;
+  border-radius: 5%;
 }
 
 .fotoPerfil {
@@ -148,3 +172,10 @@ p.endereço {
   width: 100px;
   overflow: hidden;
 }
+
+.btn-plus {  
+  width: 50%;
+  padding-bottom: 200px;
+}
+
+

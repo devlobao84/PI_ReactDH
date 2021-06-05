@@ -36,7 +36,8 @@ h1, p {
 .div-form {
   background-color: rgb(255, 255, 255);
   border-radius: 3%;
-  border: 1px solid rgb(172, 172, 172);  
+  border: 1px solid rgb(172, 172, 172);
+  
 }
 
 .input-nome {  
@@ -81,7 +82,6 @@ input:nth-child(4), input:nth-child(6), input:nth-child(8)  {
   margin: 0 auto;
   width: 100%;
 }
-
 
 
 .logo {

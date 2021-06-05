@@ -5,35 +5,35 @@ import './Index.css'
 export default function index() {
   return (
     <div className="body">
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
+      <div className="container">
+        <div className="row">
+          <div className="col-7">
             <h1>Seja bem-vindo!</h1> <br></br>
             <p> Antes de tudo, efetue seu login. <br></br>
              Caso você ainda não possua um cadastro, pode criar um!
          </p>
-            <img class="ilustra" src={ilustracao} alt="Illustração"></img>
+            <img className="ilustra" src={ilustracao} alt="Illustração"></img>
           </div>
-          <div class="col-5 mw-100 div-form">
-            <div class="form">
+          <div className="col-5 mw-100 div-form">
+            <div className="form">
               <div className="cadastro">
                 <span>Cadastro</span>
                 {/*<span>Login</span>*/}
               </div>
               <form action="/login" method="POST">
-                <div class="row">
-                  <div class="col formulario">
-                    <small id="passwordHelpBlock" class="descricao">Nome</small>
-                    <input type="text" name="nome" class="form-control input-nome" placeholder="Nome"></input>
+                <div className="row">
+                  <div className="col formulario">
+                    <small id="passwordHelpBlock" className="descricao">Nome</small>
+                    <input type="text" name="nome" className="form-control input-nome" placeholder="Nome"></input>
                   </div>
-                  <div class="col">
-                    <small id="passwordHelpBlock" class="descricao">Sobrenome</small>
-                    <input type="text" name="sobrenome" class="form-control input-sobrenome" placeholder="Sobrenome"></input>
+                  <div className="col">
+                    <small id="passwordHelpBlock" className="descricao">Sobrenome</small>
+                    <input type="text" name="sobrenome" className="form-control input-sobrenome" placeholder="Sobrenome"></input>
                   </div>
-                  <small id="passwordHelpBlock" class="form-text text-muted descricao">Endereço de e-mail</small>
-                  <input type="email" name="email" id="inputPassword5" class="form-control input-maior" placeholder="E-mail" aria-describedby="passwordHelpBlock"></input>
-                  <small id="passwordHelpBlock" class="form-text text-muted descricao">Senha</small>
-                  <input type="password" name="senha" id="inputPassword5" class="form-control input-maior" placeholder="Senha" aria-describedby="passwordHelpBlock"></input>
+                  <small id="passwordHelpBlock" className="form-text text-muted descricao">Endereço de e-mail</small>
+                  <input type="email" name="email" id="inputPassword5" className="form-control input-maior" placeholder="E-mail" aria-describedby="passwordHelpBlock"></input>
+                  <small id="passwordHelpBlock" className="form-text text-muted descricao">Senha</small>
+                  <input type="password" name="senha" id="inputPassword5" className="form-control input-maior" placeholder="Senha" aria-describedby="passwordHelpBlock"></input>
                   <small id="passwordHelpBlock" class="form-text text-muted descricao">Confirmar senha</small>
                   <input type="password" id="inputPassword5" class="form-control input-maior" placeholder=" Confirmar senha" aria-describedby="passwordHelpBlock"></input>
                   <div className="buttons">
@@ -42,7 +42,7 @@ export default function index() {
                     </button>                    
                   </div>
                   <div>
-                  <img src={logo} alt="logo do site" class="logo"></img>
+                  <img src={logo} alt="logo do site" className="logo"></img>
                   </div>
 
                 </div>
