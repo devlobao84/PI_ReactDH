@@ -8,17 +8,20 @@ export default function login() {
     <div className="body">
       <div class="container">
         <div class="row">
-          <div class="col-7 texto">
-            <h1>Seja bem-vindo!</h1> <br></br><br></br>
+          <div className="col-7 boas-vindas">
+            <h1>Seja bem-vindo!</h1> <br></br>
+            <p>Faça login com seu usuário e senha<br></br>
+            e aproveite ao máximo o sistema da Wally!
+         </p> <br></br><br></br>
             <img class="ilustra" src={img} alt="Ilustração"></img>
           </div>
-          <div class="col-5 mw-100 div-form box-form">
-            <div class="form form-login">
+          <div class="col-5 mw-100 div-form div-res">
+            <div>
               <div class="cadastro">
-                <span>Login</span>
+                <span className="cadastro">Login</span>
               </div>
               <form action="/login" method="POST">
-                <div class="row">
+                <div className="row res-row">
                   <small id="passwordHelpBlock" class="form-text text-muted descricao">Endereço de e-mail</small>
                   <input type="email" id="inputPassword5" class="form-control input-maior"
                     aria-describedby="passwordHelpBlock" name="email"></input>
@@ -28,8 +31,10 @@ export default function login() {
                   <small id="passwordHelpBlock" class="form-text text-muted descricao">Manter Logado<input type="checkbox" name='lembreLogado'></input>
                   </small>
                   <div>
-                    <button type="submit" class="btn btn-warning input-maior">Efetuar login</button>
-                    <img src={logo} alt="logo do site" class="logo"></img>
+                    <button type="submit" class="btn btn-warning input-maior">Efetuar login</button>                    
+                  </div>
+                  <div className="logo">
+                  <img src={logo} alt="logo do site" className="logotipo logo-res"></img>
                   </div>
                 </div>
               </form>

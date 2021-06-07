@@ -98,6 +98,14 @@ input:nth-child(8) {
 
 }
 
+  .logotipo {
+    display: flex;
+    justify-content: center;
+    padding: 5px 100px;
+    width: 350px !important;
+    height: 120px !important;
+  }
+
 .btn-create {
   width: 80%;
   margin: 3% 10% !important;
@@ -139,7 +147,7 @@ button>a {
   .boas-vindas {
     max-width: 100% !important;
     margin: 50% 20% 0;
-    padding-top: 10px;
+    padding-top: 25px;
 
   }
 
@@ -190,10 +198,23 @@ button>a {
   .logo {
     display: flex;
     justify-content: center;
-    padding: auto 100px 0 0;
-    width: 250px !important;
-    height: 100px !important;
+    margin-left: 100px;
+    padding: 5px 100px;
+    width: 290px !important;
 
   }
 
+  .logotipo {
+    display: flex;
+    justify-content: center;    
+    padding: 5px 100px;
+    width: 350px !important;
+    height: 120px !important;
+  }
+
+  .logo-res {
+    margin-top: 80px;
+  }
+
 }
+
