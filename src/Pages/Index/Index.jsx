@@ -17,7 +17,7 @@ export default function index() {
           <div className="col-5  mw-100 div-form div-res">
             <div>
               <div className="cadastro">
-                <span className="cadastro">Cadastro</span>
+                <span className="cadastro">Cadastre-se</span>
                 {/*<span>Login</span>*/}
               </div>
               <form action="/login" method="POST">
@@ -41,8 +41,8 @@ export default function index() {
                     <button type="text" className="btn btn-warning btn-account" text-decoration='none'><a href="/login">Já tenho conta</a>
                     </button>                    
                   </div>
-                  <div>
-                  <img src={logo} alt="logo do site" className="logo"></img>
+                  <div className="logo">
+                  <img src={logo} alt="logo do site" className="logotipo"></img>
                   </div>
 
                 </div>
