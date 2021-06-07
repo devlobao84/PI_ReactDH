@@ -1,7 +1,12 @@
 import client2 from '../../Assets/cliente-2.png'
 import barberShop from '../../Assets/barberShop.jpg'
 import logoBarber from '../../Assets/logotipo_barbershop.svg'
-import img from '../../Assets/imagem.png'
+import prof1 from '../../Assets/funcionarios/alexandre-cunha.png'
+import prof2 from '../../Assets/funcionarios/alvaro-dias.png'
+import prof3 from '../../Assets/funcionarios/jennifer-suzan.png'
+import prof4 from '../../Assets/funcionarios/jennifer-suzan.png'
+import prof5 from '../../Assets/funcionarios/alexandre-cunha.png'
+import prof6 from '../../Assets/funcionarios/alexandre-cunha.png'
 import './Dashboard.css'
 
 
@@ -52,9 +57,9 @@ export default function dashboard() {
 
               {/*Profissional 1*/}
               <div className="col-4 professionalSchedule">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
+                <img src={prof1} alt="perfil" className="fotoPerfil"></img>
                 <p className="h5">
-                  Nome do Barbeiro
+                  Alexandre Cunha
                 </p>
                 <p>
                   Especialidade do Barbeiro
@@ -65,7 +70,7 @@ export default function dashboard() {
 
               {/*Profissional 2*/}
               <div className="col-4 professionalSchedule">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
+                <img src={prof2} alt="perfil" className="fotoPerfil"></img>
                 <p className="h5">
                   Nome do Barbeiro
                 </p>
@@ -78,7 +83,7 @@ export default function dashboard() {
 
               {/*Profissional 3*/}
               <div className="col-4 professionalSchedule">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
+                <img src={prof3} alt="perfil" className="fotoPerfil"></img>
                 <p className="h5">
                   Nome do Barbeiro
                 </p>
@@ -87,49 +92,8 @@ export default function dashboard() {
                 </p>
                 <button type="button" className="btn btn-warning input-agenda"> <a
                   href="#">Verificar agenda</a></button>
-              </div>
-
-              {/*Profissional 4*/}
-              <div className="col-4 professionalSchedule list-2">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
-                <p class="h5">
-                  Nome do Barbeiro
-                </p>
-                <p>
-                  Especialidade do Barbeiro
-                </p>
-                <button type="button" className="btn btn-warning input-agenda"> <a
-                  href="#">Verificar agenda</a></button>
-              </div>
-
-              {/*Profissional 5*/}
-              <div className="col-4 professionalSchedule list-2">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
-                <p className="h5">
-                  Nome do Barbeiro
-                </p>
-                <p>
-                  Especialidade do Barbeiro
-                </p>
-                <button type="button" class="btn btn-warning input-agenda"> <a
-                  href="#">Verificar agenda</a></button>
-              </div>
-
-              {/*Profissional 6*/}
-              <div className="col-4 professionalSchedule list-2">
-                <img src={img} alt="perfil" className="fotoPerfil"></img>
-                <p className="h5">
-                  Nome do Barbeiro
-                </p>
-                <p>
-                  Especialidade do Barbeiro
-                </p>
-                <button type="button" className="btn btn-warning input-agenda"> <a
-                  href="#">Verificar agenda</a></button>
-              </div>
-
-              
-
+              </div>            
+            
             </div>
           </div>
           <div className="col-3 agendamentos">
@@ -141,8 +105,8 @@ export default function dashboard() {
                 <p className="service">Corte Simples</p>
                 <p className="service">08:00-08:30 AM</p>
                 <div className="detalhe">
-                  <img src={img} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="btn btn-warning btnDeletar">Deletar</button>
+                  <img src={prof1} alt="" className="fotoAgendamento"></img>
+                  <button type="button" className="input-agendamento">Verificar agenda</button>
                 </div>
               </div>
             </div>
@@ -152,8 +116,8 @@ export default function dashboard() {
                 <p className="service">Corte Simples</p>
                 <p className="service">08:00-08:30 AM</p>
                 <div className="detalhe">
-                  <img src={img} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="btn btn-warning btnDeletar">Deletar</button>
+                  <img src={prof2} alt="" className="fotoAgendamento"></img>
+                  <button type="button" className="input-agendamento">Verificar agenda</button>
                 </div>
               </div>
             </div>
@@ -164,24 +128,12 @@ export default function dashboard() {
                 <p className="service">Corte Simples</p>
                 <p class="service">08:00-08:30 AM</p>
                 <div className="detalhe">
-                  <img src={img} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="btn btn-warning btnDeletar">Deletar</button>
+                  <img src={prof3} alt="" className="fotoAgendamento"></img>
+                  <button type="button" className="input-agendamento">Verificar agenda</button>
                 </div>
               </div>              
             </div>
-            {/*<span>Agendamento 4</span>*/}
-            <p className="h5">8 de março</p>
-            <div className="row">
-              <div className="col lista-agendamento">
-                <p className="service">Corte Simples</p>
-                <p className="service">08:00-08:30 AM</p>
-                <div className="detalhe">
-                  <img src={img} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="btn btn-warning btnDeletar">Deletar</button>
-                </div>
-              </div>              
-            </div>
-
+            
           </div>
         </div>
       </div>      
