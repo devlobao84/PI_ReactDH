@@ -89,15 +89,23 @@ input:nth-child(8) {
 }
 
 
-.logo {
-  display: flex;
-  justify-content: center;
-  padding: 5px 125px 0 0;
-  width: 290px !important;
-  height: 120px !important;
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    padding: 5px 100px;
+    width: 290px !important;
 
+  }
 
-}
+  .logotipo {
+    display: flex;
+    justify-content: center;
+    padding: 5px 100px;
+    width: 350px !important;
+    height: 120px !important;
+
+  }
 
 .btn-create {
   width: 80%;
