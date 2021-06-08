@@ -4,9 +4,6 @@ import logoBarber from '../../Assets/logotipo_barbershop.svg'
 import prof1 from '../../Assets/funcionarios/alexandre-cunha.png'
 import prof2 from '../../Assets/funcionarios/alvaro-dias.png'
 import prof3 from '../../Assets/funcionarios/jennifer-suzan.png'
-import prof4 from '../../Assets/funcionarios/jennifer-suzan.png'
-import prof5 from '../../Assets/funcionarios/alexandre-cunha.png'
-import prof6 from '../../Assets/funcionarios/alexandre-cunha.png'
 import './Dashboard.css'
 
 
@@ -27,6 +24,8 @@ export default function dashboard() {
                 <li className="nav-lista"><i class="fa fa-cog fa-fw  menu"></i>Preferências</li>
               </ul>
             </div>
+
+            
           </div>
           <div className="col-7 px-lg-4">
             <div className="row barberInfo">

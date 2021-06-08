@@ -22,7 +22,25 @@ div .navProfile {
   
 }
 
-/*Menu da dash */
+.boas-vindas{
+  display: flex;
+  margin-top: 32px;
+  font-size: 18px;
+}
+
+.cliente {
+  display: flex;
+  margin: 5px 10px 0 0;
+  font-size: 27px;
+}
+
+.email {
+  display: flex;
+  font-size: 12px;
+}
+
+
+/*Menu Nav da dash */
 
 .nav-lista {
   background: #1E1E1E;
@@ -33,6 +51,7 @@ div .navProfile {
   text-align: center;
   padding: 5px 2px;  
   margin: 20px 20px 0 5px;
+  border-radius: 5px;
 }
 
 li {
@@ -45,6 +64,7 @@ li {
   font-size: 18px;
   margin: 20px 20px 0 5px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .nav-lista>i {
@@ -101,7 +121,7 @@ p.cnpj {
   display: flex;
   margin-top: 10px;
   width: 90%;
-  height: 70%;
+  height: 90%;
   max-width: 100%;
   border-radius: 5%;
   
@@ -111,9 +131,7 @@ p.cnpj {
   width: 65px;
 }
 
-.cliente {
-  margin: 20px 10px 0 0;
-}
+
 
 /*Final da Dahsboard*/
 
@@ -135,20 +153,35 @@ p.cnpj {
 }
 
 .professionalSchedule { 
-  background-color: white;
+  display: block;
+  grid-gap: 5px 20px;  
+  background-color: rgb(160, 160, 160);
   margin: 50px auto;
+  max-width: 250px !important;
+  height: 270px;
+  padding: 10px;
   border-radius: 5%;
 }
 
-.professionalSchedule .list-2 { 
-   margin: 55px auto;
-  padding: 20px;
-  border-radius: 5%;
+ a{
+   display: flex;
+   margin-bottom: 10px;
+ }
+
+.input-agenda {
+  display: block;
+  justify-content: center;
+  width: 185px;
+  height: 30px;
+  margin: 12px 25px;
 }
 
 .fotoPerfil {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100px;
+  border-radius: 50%;
+  
 }
 .fotoAgendamento {
   width: 50px;
@@ -158,14 +191,13 @@ p.cnpj {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .lista-agendamento {
   background-color:#FFF2B2;
   margin: 25px;
   border-radius: 15px;
-
 }
 
 
@@ -175,7 +207,7 @@ p.cnpj {
   height: 45px;
   border-radius: 10px;
   margin-bottom: 15px;
-  
+
 }
 
 .input-agendamento:hover {
