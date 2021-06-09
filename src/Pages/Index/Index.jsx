@@ -6,8 +6,8 @@ export default function index() {
   return (
     <div className="body">
       <div className="container">
-        <div class="row">
-          <div class="col-7 welcome">
+        <div className="row">
+          <div className="col-7 welcome">
             <h1>Seja bem-vindo!</h1> <br></br>
             <p>
               Antes de tudo, efetue seu login. <br></br>

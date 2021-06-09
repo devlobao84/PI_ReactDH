@@ -53,12 +53,7 @@ export default function dashboard() {
                     Paulo para te atender.
                   </p>
                   <div>
-                    <button
-                      type="button"
-                      class="btn btn-warning btn-plus contact"
-                    >
-                      Entrar em contato
-                    </button>
+                    <a className="contact" href="" role="button">Entrar em contato</a>
                   </div>
                 </div>
               </div>
@@ -74,11 +69,7 @@ export default function dashboard() {
                 <img src={prof1} alt="perfil" className="fotoPerfil"></img>
                 <h5>Alexandre Cunha</h5>
                 <p className="especialidade">Especialidade do Barbeiro</p>
-                <a
-                  className="input-agenda"
-                  href=""
-                  role="button"
-                >
+                <a className="input-agenda" href="" role="button">
                   Verificar agenda
                 </a>
               </div>
@@ -88,11 +79,7 @@ export default function dashboard() {
                 <img src={prof2} alt="perfil" className="fotoPerfil"></img>
                 <h5>Nome do Barbeiro</h5>
                 <p className="especialidade">Especialidade do Barbeiro</p>
-                <a
-                  className="input-agenda"
-                  href=""
-                  role="button"
-                >
+                <a className="input-agenda" href="" role="button">
                   Verificar agenda
                 </a>
               </div>
