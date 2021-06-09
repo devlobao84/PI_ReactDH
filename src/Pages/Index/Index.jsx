@@ -6,12 +6,12 @@ export default function index() {
   return (
     <div className="body">
       <div className="container">
-        <div className="row">
-          <div className="col-7 boas-vindas">
+        <div class="row">
+          <div class="col-7 welcome">
             <h1>Seja bem-vindo!</h1> <br></br>
             <p>
-              Para usar o sisterma da Wally, <br></br>
-              faça seu cadastro, é simples, rápido e seguro!
+              Antes de tudo, efetue seu login. <br></br>
+              Caso você ainda não possua um cadastro, pode criar um!
             </p>
             <img className="ilustra" src={ilustracao} alt="Illustração"></img>
           </div>
@@ -87,20 +87,14 @@ export default function index() {
                     aria-describedby="passwordHelpBlock"
                   ></input>
                   <div className="buttons">
-                    <button
-                      type="submit"
-                      className="btn btn-warning btn-create"
-                    >
+                    <button type="submit" class="btn btn-warning btn-create">
                       Criar nova conta
                     </button>
-                    <button
-                      type="text"
-                      className="btn btn-warning btn-account"
-                      text-decoration="none"
-                    >
-                      <a href="/login">Já tenho conta</a>
+                    <button type="text" class="btn btn-warning btn-account">
+                      Já tenho conta
                     </button>
                   </div>
+
                   <div className="logo">
                     <img
                       src={logo}
@@ -108,8 +102,8 @@ export default function index() {
                       className="logotipo"
                     ></img>
                   </div>
-                </div>            
-            </form>
+                </div>
+              </form>
             </div>
           </div>
         </div>

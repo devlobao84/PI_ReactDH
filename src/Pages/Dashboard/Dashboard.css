@@ -8,12 +8,12 @@
 
 div .navProfile {
   display: block;
-  width: 17%;
+  width: 15%;  
   background-color: black;
   color: #FFC100;
   margin-left: -3%;
   margin-top: -5%;
-  margin-bottom: -10%;
+  margin-bottom: -30%;
   padding-top: 80px;
   padding-bottom: 60px;  
   padding-left: 35px;
@@ -95,24 +95,6 @@ li {
   
 }
 
-p.endereço {
-  display: block; 
-  font-size: 12px;
-  text-align: center;
-  padding-top: 10px; 
-  
-}
-
-
-
-p.cnpj {
-  display: block;
-  font-size: 12px;
-  text-align: center;
-  
-
-}
-
 .disponiveis {
   padding-top: 50px;
 }
@@ -132,9 +114,7 @@ p.cnpj {
 }
 
 
-
 /*Final da Dahsboard*/
-
 
 .agendamentos {
   background-color: white;
@@ -155,7 +135,7 @@ p.cnpj {
 .professionalSchedule { 
   display: block;
   grid-gap: 5px 20px;  
-  background-color: rgb(160, 160, 160);
+  background-color: #ffffff;
   margin: 50px auto;
   max-width: 250px !important;
   height: 270px;
@@ -163,17 +143,33 @@ p.cnpj {
   border-radius: 5%;
 }
 
- a{
-   display: flex;
-   margin-bottom: 10px;
+ .especialidade {   
+   text-align: center;  
  }
 
 .input-agenda {
-  display: block;
+  display: flex;
+  background-color: #FFC100;
+  color: #000000;  
   justify-content: center;
   width: 185px;
-  height: 30px;
+  height: 40px;
   margin: 12px 25px;
+  padding-top: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.input-agenda:hover {
+  display: flex;
+  background-color: #000000;
+  color: #FFC100;  
+  justify-content: center;
+  width: 185px;
+  height: 40px;
+  margin: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .fotoPerfil {
@@ -217,11 +213,17 @@ p.cnpj {
   margin-bottom: 15px;
 }
 
-
-
 .btn-plus {  
   width: 50%;
   padding-bottom: 200px;
 }
+
+
+
+
+
+
+
+
 
 
