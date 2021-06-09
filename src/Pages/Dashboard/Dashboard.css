@@ -191,6 +191,23 @@ li {
   border-radius: 15px;
 }
 
+/* SCroll-bar Meus agendamentos */ 
+ .mostly-customized-scrollbar {
+   display: block;   
+   overflow-y: auto;
+   height: 35em;
+}
+
+ .mostly-customized-scrollbar::-webkit-scrollbar {
+   width: 6px;
+   height: 0;
+   background-color: #aaa;
+ }
+
+ .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+   background: #FFC100;
+   border-radius: 5px;
+ }
 
 .input-agendamento {
   background-color: #000000;  

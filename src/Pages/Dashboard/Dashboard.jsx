@@ -53,7 +53,9 @@ export default function dashboard() {
                     Paulo para te atender.
                   </p>
                   <div>
-                    <a className="contact" href="" role="button">Entrar em contato</a>
+                    <a className="contact" href="" role="button">
+                      Entrar em contato
+                    </a>
                   </div>
                 </div>
               </div>
@@ -98,43 +100,88 @@ export default function dashboard() {
           <div className="col-3 agendamentos">
             <p className="h2 tituloAgendamento">Meus Agendamentos</p>
             <p className="h5 date">Amanhã</p>
-            {/*<span>Agendamento 1</span>*/}
-            <div className="row">
-              <div className="col lista-agendamento">
-                <p className="service">Corte Simples</p>
-                <p className="service">08:00-08:30 AM</p>
-                <div className="detalhe">
-                  <img src={prof1} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="input-agendamento">
-                    Verificar agenda
-                  </button>
+
+            <div className="mostly-customized-scrollbar">
+              {/*<span>Agendamento 1</span>*/}
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p className="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof1} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/*<span>Agendamento 2</span>*/}
-            <div className="row">
-              <div className="col lista-agendamento">
-                <p className="service">Corte Simples</p>
-                <p className="service">08:00-08:30 AM</p>
-                <div className="detalhe">
-                  <img src={prof2} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="input-agendamento">
-                    Verificar agenda
-                  </button>
+              {/*<span>Agendamento 2</span>*/}
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p className="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof2} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/*<span>Agendamento 3</span>*/}
-            <p className="h5">9 de março</p>
-            <div className="row">
-              <div className="col lista-agendamento">
-                <p className="service">Corte Simples</p>
-                <p class="service">08:00-08:30 AM</p>
-                <div className="detalhe">
-                  <img src={prof3} alt="" className="fotoAgendamento"></img>
-                  <button type="button" className="input-agendamento">
-                    Verificar agenda
-                  </button>
+              {/*<span>Agendamento 3</span>*/}
+              <p className="h5">9 de março</p>
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p class="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof3} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*<span>Agendamento 3</span>*/}
+              <p className="h5">10 de março</p>
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p class="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof3} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*<span>Agendamento 3</span>*/}
+              <p className="h5">10 de março</p>
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p class="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof3} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*<span>Agendamento 3</span>*/}
+              <p className="h5">10 de março</p>
+              <div className="row">
+                <div className="col lista-agendamento">
+                  <p className="service">Corte Simples</p>
+                  <p class="service">08:00-08:30 AM</p>
+                  <div className="detalhe">
+                    <img src={prof3} alt="" className="fotoAgendamento"></img>
+                    <button type="button" className="input-agendamento">
+                      Verificar agenda
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
