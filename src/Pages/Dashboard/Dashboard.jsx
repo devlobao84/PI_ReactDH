@@ -45,14 +45,13 @@ export default function dashboard() {
                 </div>
               </div>
 
+              <div>
+              <div className="shopBarbe">
+                  <img src={barberShop} alt="barberShop" className="barbershop"></img>
+              <div>
+              </div>
               <div className="col">
-                <div className="shopBarbe">
-                  <img
-                    src={barberShop}
-                    alt="barberShop"
-                    className="barbershop"
-                  ></img>
-                  <div>
+                
                     <div>
                       <p className="welcome">
                         A Barbershop é uma barbearia com mais de 12 anos de
