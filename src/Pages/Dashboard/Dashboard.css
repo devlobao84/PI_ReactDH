@@ -300,8 +300,7 @@ p.welcome {
 
 @media(max-width: 500px) {
 
-  /* FALE CONOSCO */
- 
+  /* FALE CONOSCO */ 
 
   .barberInfo {
     display: flex;
@@ -327,16 +326,12 @@ p.welcome {
 
   .col {
     display: none;
-  }
-
-  
+  } 
  
-
   .shopBarbe {
     display: flex;
     margin-bottom: 80px;
   }
-
 
   .barbershop {
     display: block;     
