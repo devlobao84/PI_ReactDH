@@ -283,8 +283,17 @@ p.welcome {
 
 
 .logout {
-  padding-top: 100px;
+  padding: 100px 30px 0 0;
+  color: #FFC100;
+  text-decoration: none;
 }
+
+.logout:hover {
+  padding: 100px 30px 0 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 
 /* Responsivo da Dash 01 */ 

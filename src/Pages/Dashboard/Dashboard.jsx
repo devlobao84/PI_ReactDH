@@ -28,7 +28,7 @@ export default function dashboard() {
                   <i class="fa fa-cog fa-fw  menu"></i>Preferências
                 </li>
                 <li className="logout">
-                  <i class="fas fa-sign-out-alt"></i>Sair
+                  <a className="fas fa-sign-out-alt logout" href="/login" role="button">Sair</a>
                 </li>
               </ul>
             </div>
