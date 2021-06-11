@@ -1,11 +1,10 @@
-import client2 from '../../Assets/cliente-2.png'
-import barberShop from '../../Assets/barberShop.jpg'
-import logoBarber from '../../Assets/logotipo_barbershop.svg'
-import prof1 from '../../Assets/funcionarios/alexandre-cunha.png'
-import prof2 from '../../Assets/funcionarios/alvaro-dias.png'
-import prof3 from '../../Assets/funcionarios/jennifer-suzan.png'
-import './Dashboard.css'
-
+import client2 from "../../Assets/cliente-2.png";
+import barberShop from "../../Assets/barberShop.jpg";
+import logoBarber from "../../Assets/logotipo_barbershop.svg";
+import prof1 from "../../Assets/funcionarios/alexandre-cunha.png";
+import prof2 from "../../Assets/funcionarios/alvaro-dias.png";
+import prof3 from "../../Assets/funcionarios/jennifer-suzan.png";
+import "./Dashboard.css";
 
 export default function dashboard() {
   return (
@@ -28,34 +27,44 @@ export default function dashboard() {
                 <li className="nav-lista">
                   <i class="fa fa-cog fa-fw  menu"></i>Preferências
                 </li>
+                <li className="logout">
+                  <i class="fas fa-sign-out-alt"></i>Sair
+                </li>
               </ul>
             </div>
           </div>
           <div className="col-7 px-lg-4">
             <div className="row barberInfo">
-              <div className="col ">
-                <img
-                  src={barberShop}
-                  alt="barberShop"
-                  className="barbershop"
-                ></img>
-              </div>
               <div className="col">
-                <div>
+                <div className="logoBarbe">
                   <img
                     src={logoBarber}
                     alt="logoBarber"
                     className="barberLogo"
                   ></img>
-                  <p className="welcome">
-                    A Barbershop é uma barbearia com mais de 12 anos de serviços
-                    prestados e pode contar com os melhores profissionais de São
-                    Paulo para te atender.
-                  </p>
+                </div>
+              </div>
+
+              <div className="col">
+                <div className="shopBarbe">
+                  <img
+                    src={barberShop}
+                    alt="barberShop"
+                    className="barbershop"
+                  ></img>
                   <div>
-                    <a className="contact" href="" role="button">
-                      Entrar em contato
-                    </a>
+                    <div>
+                      <p className="welcome">
+                        A Barbershop é uma barbearia com mais de 12 anos de
+                        serviços prestados e pode contar com os melhores
+                        profissionais de São Paulo para te atender.
+                      </p>
+                    </div>
+                    <div>
+                      <a className="contact" href="" role="button">
+                        Entrar em contato
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -110,7 +119,7 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof1} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
@@ -123,7 +132,7 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof2} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
@@ -137,12 +146,12 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof3} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
               </div>
-              {/*<span>Agendamento 3</span>*/}
+              {/*<span>Agendamento 4</span>*/}
               <p className="h5">10 de março</p>
               <div className="row">
                 <div className="col lista-agendamento">
@@ -151,12 +160,12 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof3} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
               </div>
-              {/*<span>Agendamento 3</span>*/}
+              {/*<span>Agendamento 5</span>*/}
               <p className="h5">10 de março</p>
               <div className="row">
                 <div className="col lista-agendamento">
@@ -165,12 +174,12 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof3} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
               </div>
-              {/*<span>Agendamento 3</span>*/}
+              {/*<span>Agendamento 6</span>*/}
               <p className="h5">10 de março</p>
               <div className="row">
                 <div className="col lista-agendamento">
@@ -179,7 +188,7 @@ export default function dashboard() {
                   <div className="detalhe">
                     <img src={prof3} alt="" className="fotoAgendamento"></img>
                     <button type="button" className="input-agendamento">
-                      Verificar agenda
+                      Cancelar agendamento
                     </button>
                   </div>
                 </div>
