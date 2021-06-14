@@ -132,14 +132,16 @@ button>a {
 
 @media(max-width: 500px) {
   .body {
-    display: block;
+    display: flex;
     background-color: #F2F2F2;
     align-items: center;
     overflow: hidden;
   }
 
+  
+
   .div-res {
-    display: block;
+    display: flex;
     background-color: #F2F2F2;
     max-width: 20%;
     border-radius: none;
@@ -165,8 +167,6 @@ button>a {
   p {
     font-size: 16px;
   }
-
-
 
   .cadastro {
     padding-bottom: 5px;

@@ -12,7 +12,7 @@ export default function dashboard() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-2 navProfile">
-            <img src={client2} alt="perfil" className="foto-perfil" />
+            <img src={client2} alt="perfil" className="foto-perfil border-profile" />
             <div className="nav-info">
               <small className="boas-vindas">Bem vindo(a)!</small>
               <h2 className="cliente">João Gomes</h2>
@@ -28,7 +28,13 @@ export default function dashboard() {
                   <i class="fa fa-cog fa-fw  menu"></i>Preferências
                 </li>
                 <li className="logout">
-                  <a className="fas fa-sign-out-alt logout" href="/login" role="button">Sair</a>
+                  <a
+                    className="fas fa-sign-out-alt logout"
+                    href="/login"
+                    role="button"
+                  >
+                    Sair
+                  </a>
                 </li>
               </ul>
             </div>
@@ -37,21 +43,19 @@ export default function dashboard() {
             <div className="row barberInfo">
               <div className="col">
                 <div className="logoBarbe">
-                  <img
-                    src={logoBarber}
-                    alt="logoBarber"
-                    className="barberLogo"
-                  ></img>
+                  <img src={logoBarber} alt="logoBarber" className="barberLogo"></img>
                 </div>
               </div>
 
               <div>
-              <div className="shopBarbe">
-                  <img src={barberShop} alt="barberShop" className="barbershop"></img>
-              <div>
-              </div>
-              <div className="col">
-                
+                <div className="shopBarbe">
+                  <img
+                    src={barberShop}
+                    alt="barberShop"
+                    className="barbershop"
+                  ></img>
+                  <div></div>
+                  <div className="col">
                     <div>
                       <p className="welcome">
                         A Barbershop é uma barbearia com mais de 12 anos de
@@ -59,7 +63,7 @@ export default function dashboard() {
                         profissionais de São Paulo para te atender.
                       </p>
                     </div>
-                    <div>
+                    <div className="contato">
                       <a className="contact" href="" role="button">
                         Entrar em contato
                       </a>
@@ -78,7 +82,7 @@ export default function dashboard() {
               <div className="col-4 professionalSchedule">
                 <img src={prof1} alt="perfil" className="fotoPerfil"></img>
                 <h5>Alexandre Cunha</h5>
-                <p className="especialidade">Especialidade do Barbeiro</p>
+                <p className="especialidade">Cabelo e barba</p>
                 <a className="input-agenda" href="" role="button">
                   Verificar agenda
                 </a>
@@ -87,8 +91,8 @@ export default function dashboard() {
               {/*Profissional 2*/}
               <div className="col-4 professionalSchedule">
                 <img src={prof2} alt="perfil" className="fotoPerfil"></img>
-                <h5>Nome do Barbeiro</h5>
-                <p className="especialidade">Especialidade do Barbeiro</p>
+                <h5>Alvaro Dias</h5>
+                <p className="especialidade">Aplque e Dread</p>
                 <a className="input-agenda" href="" role="button">
                   Verificar agenda
                 </a>
@@ -97,8 +101,8 @@ export default function dashboard() {
               {/*Profissional 3*/}
               <div className="col-4 professionalSchedule">
                 <img src={prof3} alt="perfil" className="fotoPerfil"></img>
-                <h5>Nome do Barbeiro</h5>
-                <p className="especialidade">Especialidade do Barbeiro</p>
+                <h5>Jennifer Suzan</h5>
+                <p className="especialidade">Corte e Aplique</p>
                 <a className="input-agenda" href="" role="button">
                   Verificar agenda
                 </a>

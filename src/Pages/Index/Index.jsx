@@ -15,7 +15,7 @@ export default function index() {
             </p>
             <img className="ilustra" src={ilustracao} alt="Illustração"></img>
           </div>
-          <div className="col-5  mw-100 div-form div-res">
+          <div className="col-5 mw-100 div-form div-res">
             <div>
               <div className="cadastro">
                 <span className="cadastro">Cadastre-se</span>
@@ -94,7 +94,6 @@ export default function index() {
                       Já tenho conta
                     </button>
                   </div>
-
                   <div className="logo">
                     <img
                       src={logo}

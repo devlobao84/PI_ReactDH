@@ -1,6 +1,7 @@
 .body {
   background-color: #F2F2F2;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .perfil {
@@ -9,23 +10,68 @@
   max-width: 100%;
 }
 
-.navProfile {
+
+/* Container nav menu */ 
+
+div .navProfile {
+  display: block;
+  width: 15%;
   background-color: black;
-  color: white;
-  margin: 0%;
-  border-radius: 30px;
+  color: #FFC100;
+  margin-left: -3%;
+  margin-top: -5%;
+  margin-bottom: -30%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 35px;
+  border-radius: 10px;
+  z-index: 20;
 }
+
+.foto-perfil {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.border-profile {
+  width: 100px !important;
+  height: 100px;
+  border: 3px solid;
+  border-radius: 50px;
+ 
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\\//\/\\//\/\/\//\ */ 
+
+
 .carrousel {
   background-color: white;
 }
+
+
+
+
 .profilePhoto {
-  width: 80px !important;
-  height: 50px;
+  width: 90px !important;
+  height: 90px;
+  border: 3px solid #FFC100;
+  border-radius: 50px;
+  z-index: 10;
 }
 
+.name-prof {
+  font-size: 21px;
+}
+
+
+
+
 .carousel-img {
-  width: 150px;
+  width: 200px;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .ScheduleList {
@@ -34,7 +80,7 @@
 }
 
 .principal {
-  background-color: brown;
+  background-color: rgb(255, 255, 255);
 }
 
 .carrousel-professional {
@@ -61,3 +107,46 @@
 .Schedule-title {
   padding: 10px;
 }
+
+
+.logout {
+  padding: 200px 30px 0 0;
+  color: #FFC100;
+  text-decoration: none;
+}
+
+.logout:hover {
+  padding: 200px 30px 0 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.agendar {
+  display: block;
+  background-color: #FFC100;
+  color: #000000;
+  font-size: 16px;
+  justify-content: center;
+  width: 185px;
+  height: 36px;
+  padding-bottom: 22px;
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.agendar:hover {
+  display: block;
+  background-color: #000000;
+  color: #FFC100;
+  font-size: 16px;
+  justify-content: center;
+  width: 185px;
+  height: 36px;  
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
